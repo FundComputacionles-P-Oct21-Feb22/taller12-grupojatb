@@ -1,0 +1,48 @@
+// Problema 2
+
+1.Inicio
+2.funcionPrincipal()
+3.	opcion,d[0,n]<--0
+4.	bandera<--verdadero
+5.	mensaje,x(100)[{a-z}{A-Z}{BS}]<--""
+6.	Haga
+7.		Escribir "Ingrese (1) para ingresar autos (2) para ingresar motos (3) para salir del ciclo"
+8.		Leer Opcion
+9.		Si (opcion==1)
+10.		    mensaje = ingresarautos()
+11.		    Escribir mensaje
+12.		   Caso contrario Si(opcion==2)
+13.		        mensaje = ingresarmotos()
+14.		        Escribir mensaje
+15.		       Caso contrario Si(opcion==3)
+16.		            bandera==falso
+17.		            Escribir "Ingreso de datos completado"
+18.	Hasta(bandera==falso)
+19.Fin funcionPrincipal
+
+20.Funcion ingresarautos(): x
+
+21.	marca, x(50)[{a-z}, {A-Z}, {BS}]
+22.	cadena, x(100)[{a-z}, {A-Z}, {BS}]
+23.	año, i[0,n]
+24.	Escribir "Ingrese la marca del auto"
+25.	Lea marca
+26.	Escribir "Ingrese el año de fabricación"
+27.	Lea año
+28.	cadena <-- "Auto marca" + marca + "con año de fabricación" + año
+29.	retornar cadena
+30.Fin funcion ingresarautos
+
+31.Funcion ingresarmotos(): x
+
+32.	motor, x(50)[{a-z}, {A-Z}, {BS}]
+33.	cadena, x(100)[{a-z}, {A-Z}, {BS}]
+34.	asientos, i[0,n]
+35.	Escribir "Ingrese el tipo de motor de la moto"
+36.	Lea motor
+37.	Escribir "Ingrese el numero de asientos"
+38.	Lea asientos
+39.	cadena <-- "Moto con motor" + motor + "y" + asientos + "asientos"
+40.	retornar cadena
+41.Fin funcion ingresarmotos
+42.Fin

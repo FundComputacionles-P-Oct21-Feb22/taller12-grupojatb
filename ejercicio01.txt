@@ -1,0 +1,21 @@
+//Problema 1
+
+1. Inicio
+
+2. funcion principal()
+3. 	(arreglo1(4), i[0-n] <-- {9, 8, 7, 6})
+4.	(arreglo2(4), i[0-n] <-- {2, 3, 2, 3})
+	(arreglo3(4), i[0-n] <-- {10, 18, 17, 10})
+
+5. 	Para (i <--0, i<4, 1) haga
+6.	generarOperacion(arreglo1(i), arreglo2(i), arreglo3(i))
+7. 	Fin_Para
+
+8.Fin funcion principal
+
+9. funcion generarOperacion(a, i; b, i; c, i)
+10.  	m, i[0-n]
+11.  	m <-- (a**2 + b ** 2) + a*c
+12. 	Escribir "El valor de m es " + m + "y los valores usador para la operación son" + a + b + c
+13. Fin funcion generarOperacion 
+14. Fin
